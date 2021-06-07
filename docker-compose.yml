@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    colab-runtime:
+        build: .
+        ports:
+            - '8888:8888'
+        image: samsheff/colab-runtime
